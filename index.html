@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Shopify</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <!-- NAV HEADER -->
+        <div class="nav-header">
+          <img src="./images/logo.jpg" alt="logo" class="logo" />
+          <button class="nav-toggle">
+            <i class="fa fa-bars icon"></i>
+          </button>
+        </div>
+    
+        <!-- NAV LINKS -->
+        <ul class="nav-links">
+          <li class="nav-link" ><a href="#" class = "link">home</a></li>
+          <li class="nav-link" ><a href="#shop" class = "link">shop</a></li>
+          <li class="nav-link" ><a href="#collection" class = "link">collections</a></li>
+          <li class="nav-link" ><a href="./products.html" class = "link pages">pages</a></li>
+          <li class="nav-link" ><a href="#" class = "link">blogs</a></li>
+        </ul>
+    
+        <!-- NAV ICONS -->
+        <ul class="nav-icons">
+          <select name="currency" id="currency" class="currency">
+            <option value="usd" selected>USD</option>
+            <option value="inr">INR</option>
+          </select>
+          <span>
+            <i class="fa-solid fa-magnifying-glass icon"></i>
+          </span>
+          <span> <i class="fa-solid fa-user icon"></i></span>
+          <span>
+            <i class="fa-solid fa-cart-shopping icon"></i>
+          </span>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="hero" id = "home">
+      <div class="hero-content">
+        <h2 class="title">winter collection</h2>
+        <a class="btn">explore more</a>
+      </div>
+      <div class="hero-banner">
+        <img src="./images/banner.jpg" alt="" srcset="" class="banner" />
+      </div>
+    </div>
+
+    <section class="section-center arrivals-center" id = "shop">
+      <article class="section-title">
+        <h2 class="heading">new arrivals</h2>
+        <p class="para-head">always the latest and most special products</p>
+      </article>
+      <article class="section-content">
+        <!-- <div class="card">
+          <article class="img-container">
+            <img src="./images/product-1.jpg" alt="" class="card-image" />
+          </article>
+          <article class="card-content">
+            <h2 class="product-name">Full Sleeves Camisole</h2>
+            <h3 class="product-price">$79.25</h3>
+          </article>
+        </div>
+
+        <div class="card">
+          <article class="img-container">
+            <img src="./images/product-2.jpg" alt="" class="card-image" />
+          </article>
+          <article class="card-content">
+            <h2 class="product-name">Full Sleeves Camisole</h2>
+            <h3 class="product-price">$79.25</h3>
+          </article>
+        </div>
+
+        <div class="card">
+          <article class="img-container">
+            <img src="./images/product-1.jpg" alt="" class="card-image" />
+          </article>
+          <article class="card-content">
+            <h2 class="product-name">Full Sleeves Camisole</h2>
+            <h3 class="product-price">$79.25</h3>
+          </article>
+        </div>
+
+        <div class="card">
+          <article class="img-container">
+            <img src="./images/product-2.jpg" alt="" class="card-image" />
+          </article>
+          <article class="card-content">
+            <h2 class="product-name">Full Sleeves Camisole</h2>
+            <h3 class="product-price">$79.25</h3>
+          </article>
+        </div> -->
+      </article>
+      <a href="./products.html" class="btn cart-btn" >See more</a>
+    </section>
+
+
+    <section class="section-center categories" id="collection">
+      <button class="jackets">
+        <img src="./images/jackets.jpg" alt="" class="jacketsImg">
+          <h3 class="category-title">Jackets</h3>
+        </img>
+      </button>
+
+      <button class="trousers">
+        <img src="./images/trousers.jpg" alt="" class="trousersImg">  
+          <h3 class="category-title">trousers</h3>
+        </img>
+      </button>
+
+      <button class="sun-glasses">
+        <img src="./images/sunglasses.jpg" alt="" class="sun-glassesImg" > 
+          <h3 class="category-title">sun-glasses</h3>
+        </img>
+      </button>
+
+      <button class="sweaters">
+        <img src="./images/sweaters.jpg" alt="" class="sweatersImg">
+          <h3 class="category-title">sweaters</h3>
+        </img>
+      </button>
+
+      <button class="shoes">
+        <img src="./images/shoes.jpg" alt="" class="shoesImg" />
+          <h3 class="category-title">shoes</h3>
+        <img />
+      </button>
+    </section>
+
+    <!-- FOOTER -->
+  <footer class="footer">
+      <h3>BAVDHAN, PUNE | +919405754153 | dev09ansh@gmail.com</h3>
+  </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- script.js -->
+    <script src="https://checkout.razorpay.com/v1/checout.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

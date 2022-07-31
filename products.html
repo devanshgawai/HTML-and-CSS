@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Your Cart</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <!-- NAV HEADER -->
+        <div class="nav-header">
+          <img src="./images/logo.jpg" alt="logo" class="logo" />
+          <button class="nav-toggle">
+            <i class="fa fa-bars icon"></i>
+          </button>
+        </div>
+
+        <!-- NAV LINKS -->
+        <ul class="nav-links">
+          <li class="nav-link" id="home"><a href="#" id="home">home</a></li>
+          <li class="nav-link" id="shop"><a href="#">shop</a></li>
+          <li class="nav-link" id="collection">
+            <a href="./products.html" id="collection">collections</a>
+          </li>
+          <li class="nav-link" id="pages"><a href="#">pages</a></li>
+          <li class="nav-link" id="blogs"><a href="#">blogs</a></li>
+        </ul>
+
+        <!-- NAV ICONS -->
+        <ul class="nav-icons">
+          <select name="currency" id="currency" class="currency">
+            <option value="usd" selected>USD</option>
+            <option value="inr">INR</option>
+          </select>
+          <span>
+            <i class="fa-solid fa-magnifying-glass icon"></i>
+          </span>
+          <span> <i class="fa-solid fa-user icon"></i></span>
+          <span>
+            <i class="fa-solid fa-cart-shopping icon"></i>
+          </span>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="product-center">
+      <h2 class="product-heading">Our Products</h2>
+      <article class="product-content"></article>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
